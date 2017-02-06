@@ -2,19 +2,12 @@
 #include <streamer>
 
 /*
-if (objectid == HausInfo[h][hTor])
-{
-	if (SpielerInfo[playerid][uHausschluessel] == h)
-	{
-		TuerSelected[playerid][0] = h;
-		TuerSelected[playerid][1] = 3;
-		if (HausInfo[h][hTorOpen] == 0) HausInfo[h][hTorOpen] = 1;
-		else HausInfo[h][hTorOpen] = 0;
-		moveGate(HausInfo[h][hTor], 1.27, 1.14, 1.45, 1, HausInfo[h][hTorOpen] == 1)
-		CancelSelectTextDraw(playerid);
-	}
-	goto afterhaus;
-}
+ USAGE:
+ {
+	if (Gate[gateID][open] == 0) Gate[gateID][open] = 1;
+	else Gate[gateID][open] = 0;
+	moveGate(Gate[gateID][objectID], 1.0, 1.0, 1.5, 1.0, Gate[gateID][open] == 1)
+ }
 */
 
 // moveGate Function, hab ich aber noch nicht getestet. Nur so ausm Kopf in Pawno eingetippelt ^^
