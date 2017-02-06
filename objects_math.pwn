@@ -10,8 +10,6 @@
  }
 */
 
-// moveGate Function, hab ich aber noch nicht getestet. Nur so ausm Kopf in Pawno eingetippelt ^^
-
 ///@credits by Alf21
 ///
 ///@desciption Move a gate with the behavior to rotate parallel to its own z-achsis on opening
